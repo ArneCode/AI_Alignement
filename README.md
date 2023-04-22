@@ -1,4 +1,4 @@
-# A potential Solution to the AI alignment problem 
+# A Proposal for AI Alignement: Using Conflicting Models
 In the following text I am going to outline a possible Solution to the AI alignment Problem. A Disclaimer upfront: I am in no way an expert of the field (I am only 17 years old). 
 This is just an idea I had a few years ago and would really like some people who know more than me to look at it. 
 I am going to assume that concepts like reinforcement learning are known to the reader. 
