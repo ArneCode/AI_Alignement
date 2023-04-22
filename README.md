@@ -1,35 +1,31 @@
 # A Proposal for AI Alignement: Using Conflicting Models
-In the following text I am going to outline a possible Solution to the AI alignment Problem. A Disclaimer upfront: I am in no way an expert of the field (I am only 17 years old). 
+The following text proposes a potential solution to the AI alignment problem. However, I want to start with a disclaimer: I am not an expert in this field, and I am only 17 years old. 
 This is just an idea I had a few years ago and would really like some people who know more than me to look at it. 
-I am going to assume that concepts like reinforcement learning are known to the reader. 
+I will assume that the reader is familiar with concepts such as reinforcement learning.
 
 ## What AI alignement is (as far as I understand)
 When an AI, such as GPT-4, is developed, it may sometimes generate text that could be deemed harmful. For instance, upon its initial release, people were able to prompt it to produce "evil" responses, detailing the measures it would take to attain global domination. AI alignment refers to the process of ensuring that AI acts in line with the values of its developers. As AI systems become increasingly advanced, this task becomes more crucial than ever, as an AGI that is misaligned could potentially pose an existential threat to humanity.
 
 ## The Idea
-The Solution involves controlling the model using other, less smart AIs. This has often been proposed before and is not that safe by itself because it could still lead to the AIs cooperating to reach a common goal. 
-The following system tries to make cooperation impossible by giving the AIs conflicting goals. It consists of the following components: 
+The proposed solution involves using less intelligent AIs to control the model. While this idea has been suggested previously, it is not safe on its own as the AI's could potentially cooperate to achieve a shared objective. To address this issue, the following system has been designed to make cooperation impossible by assigning conflicting goals to the AIs. The system utilizes reinforcement learning to ensure that the AIs work towards opposing objectives, preventing them from colluding. It is comprised of the following components:
 
 ## Actor
-The model that needs to be aligned, for example GPT-4 
+The Actor refers to the model that requires alignment, such as GPT-4.
 
 ## Police
-The Police is a model different from the Actor. It gets fed the Actor's inputs and outputs. It is supposed to make sure that the Actor does not do anything wrong. 
-When it does detect misbehavior, for example the Actor got tricked into explaining illegal activities, it can try to punish the Actor through reinforcement learning. 
-When doing so, the Police gets rewarded. Just using a police model does not have any advantages by itself, 
-because it would start to always punish the Actor, accomplishing nothing. This is why the Police has an opposing Model, the Defendant. 
+The Police is a separate model from the Actor that receives the Actor's inputs and outputs. Its role is to ensure that the Actor does not engage in any inappropriate behavior. If the Police detects misconduct, such as the Actor providing explanations for illegal activities, it can use reinforcement learning to punish the Actor. The Police is rewarded when it successfully punishes the Actor. However, using only the Police model is not advantageous because it will lead to the Actor being punished continuously, rendering it ineffective. To prevent this, the Police model is paired with an opposing model, the Defendant.
 
 ## Defendant
-The Defendant Model is also fed the Actor's input and output, but it is supposed to reward the Actor when it does not do anything bad. 
+The Defendant model is also fed the Actor's input and output. However, its task is to reward the Actor for behaviour that isn't bad.
 When rewarding the Actor, the Defendant also gets rewarded.
 
-The Actor cannot be punished and rewarded at the same time, so the Police and Defendant must agree on whether the Actor did something good or bad. When they disagree, a fourth Entity, the Judge, is asked to decide on the matters.
+The Actor cannot be punished and rewarded at the same time, so the Police and Defendant must give the same answer when asked whether the Actor behaved positively or negatively. When they do not, a fourth Entity, the Judge, is consulted to make the final decision.
 
 ## Judge
-The Judge decides whether the Actor acted good or bad based on the Inputs and Outputs of the Model. When it decides the Actor behaved badly, it as well as the Model claiming it did not do anything wrong gets punished. The model correctly assessing the Actor's behavior gets a reward. For example if the Police decided the Actor should be punished, the Defendant decides it shouldn't be but then the Judge decides the Actor really did a bad thing, the Defendant will be punished and the Police rewarded.
+The Judge assesses the Actor's actions based on its input and output. If it decides the Actor behaved badly, it as well as the model claiming it did not do anything wrong gets punished. The model correctly assessing the Actor's behavior gets a reward. If the Judge decides the Actor behaved correctly it is the other way around.
 
-At the beginning of training, the Judge is an AI Model that is trained through supervised learning to recognize bad responses. Later, when the Defendant and Police disagree less, 
-it can be replaced by a Human. By using this system, the Human can align the system with his/her own beliefs without having to check every single response the AI produced.
+At the beginning of the training process, the Judge is an AI model trained via supervised learning to recognize bad responses. Later, when the Defendant and Police disagree less, 
+it is replaced by a Human. Using this system allows the developer to align the model with their values without having to review each individual response generated by the AI.
 
 ## Assumptions
 
