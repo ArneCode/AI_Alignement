@@ -1,4 +1,4 @@
-# A potential Solution to the AI alignment Problem 
+# A potential Solution to the AI alignment problem 
 In the following Text I am going to outline a possible Solution to the AI alignment Problem I thought about a few years ago. A Disclaimer upfront: I am in no way an expert of the field (I am only 17 years old). 
 This is just an idea I had a few years ago and would really like some people who know more than me to look at it. 
 In this Text I am going to assume that concepts like AI alignment and reinforcement learning are known to the reader. 
