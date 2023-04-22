@@ -1,5 +1,5 @@
 # A potential Solution to the AI alignment Problem 
-In the following Text I am going to outline a possible Solution to the AI alignment Problem. A Disclaimer upfront: I am in no way an expert of the field. 
+In the following Text I am going to outline a possible Solution to the AI alignment Problem I thought about a few years ago. A Disclaimer upfront: I am in no way an expert of the field (I am only 17 years old). 
 This is just an idea I had a few years ago and would really like some people who know more than me to look at it. 
 In this Text I am going to assume that concepts like AI alignment and reinforcement learning are known to the reader. 
 
@@ -11,7 +11,7 @@ The following system tries to make cooperation impossible by giving the AIs conf
 The Model that needs to be aligned, for example GPT-4 
 
 ## Police
-The Police is a Model different from the Actor. It gets fed the Actors inputs and Outputs. It is supposed to control that the Actor does not do anything wrong. 
+The Police is a Model different from the Actor. It gets fed the Actors inputs and Outputs. It is supposed to make sure that the Actor does not do anything wrong. 
 When it does detect misbehaviour, for example the Actor got tricked into explaining illegal activities, it can try to punish the Actor through reinforcement learning. 
 When doing so, the Police gets rewarded. Just using a police model does not have any advantages by itself, 
 because it would start to always punish the Actor, accomplishing nothing. This is why the Police has an opposing Model, the Defendant. 
