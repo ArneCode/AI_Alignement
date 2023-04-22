@@ -1,7 +1,10 @@
 # A potential Solution to the AI alignment problem 
 In the following text I am going to outline a possible Solution to the AI alignment Problem. A Disclaimer upfront: I am in no way an expert of the field (I am only 17 years old). 
 This is just an idea I had a few years ago and would really like some people who know more than me to look at it. 
-I am going to assume that concepts like AI alignment and reinforcement learning are known to the reader. 
+I am going to assume that concepts like reinforcement learning are known to the reader. 
+
+## What AI alignement is (as far as I understand)
+When an AI, such as GPT-4, is developed, it may sometimes generate text that could be deemed harmful. For instance, upon its initial release, people were able to prompt it to produce "evil" responses, detailing the measures it would take to attain global domination. AI alignment refers to the process of ensuring that AI acts in line with the values of its developers. As AI systems become increasingly advanced, this task becomes more crucial than ever, as an AGI that is misaligned could potentially pose an existential threat to humanity.
 
 ## The Idea
 The Solution involves controlling the model using other, less smart AIs. This has often been proposed before and is not that safe by itself because it could still lead to the AIs cooperating to reach a common goal. 
