@@ -5,7 +5,7 @@ I will assume that the reader is familiar with concepts such as reinforcement le
 ## What AI alignement is (as far as I understand)
 When an AI, such as GPT-4, is developed, it may sometimes generate text that could be deemed harmful. For instance, upon its initial release, people were able to prompt it to produce "evil" responses, detailing the measures it would take to attain global domination. AI alignment refers to the process of ensuring that AI acts in line with the values of its developers. As AI systems become increasingly advanced, this task becomes more crucial than ever, as an AGI that is misaligned could potentially pose an existential threat to humanity.
 
-## The Idea
+## The Solution
 The proposed solution involves using less intelligent AIs to control the model. While this idea has been suggested previously, it is not safe on its own as the AI's could potentially cooperate to achieve a shared objective. To address this issue, the following system has been designed to make cooperation impossible by assigning conflicting goals to the AIs. The system utilizes reinforcement learning to ensure that the AIs work towards opposing objectives, preventing them from colluding. It is comprised of the following components:
 
 ## Actor
