@@ -1,5 +1,5 @@
 # A Proposal for AI Alignement: Using Conflicting Models
-The following text proposes a potential solution to the AI alignment problem. However, I want to start with a disclaimer: I am not
+The following text proposes a potential solution to the AI alignment problem.
 I will assume that the reader is familiar with concepts such as reinforcement learning.
 
 ## What AI alignement is (as far as I understand)
